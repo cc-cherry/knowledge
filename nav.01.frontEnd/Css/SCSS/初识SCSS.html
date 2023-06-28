@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>初识SCSS | CC-CHERRY</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/knowledge/logo.ico">
+    <meta name="description" content="Just playing around">
+    
+    <link rel="preload" href="/knowledge/assets/css/0.styles.c7f74584.css" as="style"><link rel="preload" href="/knowledge/assets/js/app.f29a542b.js" as="script"><link rel="preload" href="/knowledge/assets/js/2.9a94178d.js" as="script"><link rel="preload" href="/knowledge/assets/js/14.05bbb05c.js" as="script"><link rel="prefetch" href="/knowledge/assets/js/10.b78d729e.js"><link rel="prefetch" href="/knowledge/assets/js/11.50f169f5.js"><link rel="prefetch" href="/knowledge/assets/js/12.9405c26d.js"><link rel="prefetch" href="/knowledge/assets/js/13.aafb8834.js"><link rel="prefetch" href="/knowledge/assets/js/15.7bc38d23.js"><link rel="prefetch" href="/knowledge/assets/js/16.21d75e68.js"><link rel="prefetch" href="/knowledge/assets/js/17.54d72299.js"><link rel="prefetch" href="/knowledge/assets/js/18.765a3240.js"><link rel="prefetch" href="/knowledge/assets/js/19.45080d1f.js"><link rel="prefetch" href="/knowledge/assets/js/20.724b3188.js"><link rel="prefetch" href="/knowledge/assets/js/21.e23811bd.js"><link rel="prefetch" href="/knowledge/assets/js/22.05e6163d.js"><link rel="prefetch" href="/knowledge/assets/js/23.90bb2c9e.js"><link rel="prefetch" href="/knowledge/assets/js/24.a80a2e0a.js"><link rel="prefetch" href="/knowledge/assets/js/25.90fed8e4.js"><link rel="prefetch" href="/knowledge/assets/js/26.17c16912.js"><link rel="prefetch" href="/knowledge/assets/js/27.1c71b3c9.js"><link rel="prefetch" href="/knowledge/assets/js/3.064d7f83.js"><link rel="prefetch" href="/knowledge/assets/js/4.6c36b0f2.js"><link rel="prefetch" href="/knowledge/assets/js/5.19486af6.js"><link rel="prefetch" href="/knowledge/assets/js/6.84470a17.js"><link rel="prefetch" href="/knowledge/assets/js/7.6d3af2b0.js"><link rel="prefetch" href="/knowledge/assets/js/8.98dc5d5e.js"><link rel="prefetch" href="/knowledge/assets/js/9.e788e4a1.js">
+    <link rel="stylesheet" href="/knowledge/assets/css/0.styles.c7f74584.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/knowledge/" class="home-link router-link-active"><!----> <span class="site-name">CC-CHERRY</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/knowledge/nav.01.frontEnd/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/knowledge/nav.02.rearEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/knowledge/nav.03.serverEnd/" class="nav-link">
+  服务器端
+</a></div><div class="nav-item"><a href="/knowledge/nav.55.config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/knowledge/nav.99.resume/" class="nav-link">
+  简历
+</a></div><div class="nav-item"><a href="https://github.com/cc-cherry" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/knowledge/nav.01.frontEnd/" class="nav-link router-link-active">
+  前端
+</a></div><div class="nav-item"><a href="/knowledge/nav.02.rearEnd/" class="nav-link">
+  后端
+</a></div><div class="nav-item"><a href="/knowledge/nav.03.serverEnd/" class="nav-link">
+  服务器端
+</a></div><div class="nav-item"><a href="/knowledge/nav.55.config/" class="nav-link">
+  配置
+</a></div><div class="nav-item"><a href="/knowledge/nav.99.resume/" class="nav-link">
+  简历
+</a></div><div class="nav-item"><a href="https://github.com/cc-cherry" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Charts</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading open"><span>Css</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/nav.01.frontEnd/Css/" aria-current="page" class="sidebar-link">CSS相关</a></li><li><section class="sidebar-group collapsable is-sub-group depth-1"><p class="sidebar-heading open"><span>Scss</span> <span class="arrow down"></span></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/knowledge/nav.01.frontEnd/Css/SCSS/初识SCSS.html" class="active sidebar-link">初识SCSS</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/knowledge/nav.01.frontEnd/Css/SCSS/初识SCSS.html#介绍" class="sidebar-link">介绍</a></li></ul></li></ul></section></li></ul></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Javascript</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Vue</span> <span class="arrow right"></span></p> <!----></section></li><li><section class="sidebar-group collapsable depth-0"><p class="sidebar-heading"><span>Webpack</span> <span class="arrow right"></span></p> <!----></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="初识scss"><a href="#初识scss" class="header-anchor">#</a> 初识SCSS</h1> <h2 id="介绍"><a href="#介绍" class="header-anchor">#</a> 介绍</h2> <p>1、使用$来标识变量</p> <p>2、嵌套css规则</p> <p>3、&amp;是父类选择器，一般用于&amp;:hover</p> <p>4、导入@import</p> <p>5、注释： //不会出现在css中，/* 原生的注释，会出现在css中 */</p> <p>6、混入@mixin</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@mixin</span> <span class="token selector">rounded-corners </span><span class="token punctuation">{</span>
+  <span class="token property">-moz-border-radius</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+  <span class="token property">-webkit-border-radius</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+  <span class="token property">border-radius</span><span class="token punctuation">:</span> 5px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>使用@include</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token selector">notice </span><span class="token punctuation">{</span>
+  <span class="token property">background-color</span><span class="token punctuation">:</span> green<span class="token punctuation">;</span>
+  <span class="token property">border</span><span class="token punctuation">:</span> 2px solid #00aa00<span class="token punctuation">;</span>
+  <span class="token keyword">@include</span> rounded-corners<span class="token punctuation">;</span>  **
+<span class="token punctuation">}</span>
+</code></pre></div><p>传参和使用<code>@mixin link-colors($normal, $hover, $visited)</code> 使用：</p> <div class="language-scss extra-class"><pre class="language-scss"><code><span class="token keyword">@include</span> <span class="token function">link-colors</span><span class="token punctuation">(</span>
+      <span class="token property"><span class="token variable">$normal</span></span><span class="token punctuation">:</span> blue<span class="token punctuation">,</span>
+      <span class="token property"><span class="token variable">$visited</span></span><span class="token punctuation">:</span> green<span class="token punctuation">,</span>
+      <span class="token property"><span class="token variable">$hover</span></span><span class="token punctuation">:</span> red
+  <span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><p>选择器继承 <code>@extend .error;</code></p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/knowledge/nav.01.frontEnd/Css/" class="prev router-link-active">
+        CSS相关
+      </a></span> <span class="next"><a href="/knowledge/nav.01.frontEnd/JavaScript/">
+        JavaScript常见面试题
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/knowledge/assets/js/app.f29a542b.js" defer></script><script src="/knowledge/assets/js/2.9a94178d.js" defer></script><script src="/knowledge/assets/js/14.05bbb05c.js" defer></script>
+  </body>
+</html>
