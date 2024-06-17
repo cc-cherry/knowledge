@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e,a4 as d}from"./chunks/framework.kn2nO6JX.js";const f=JSON.parse('{"title":"常用工具","description":"","frontmatter":{},"headers":[],"relativePath":"config/工具合集.md","filePath":"config/工具合集.md"}'),o={name:"config/工具合集.md"},r=d("",10),h=[r];function n(i,l,c,s,_,b){return e(),a("div",null,h)}const u=t(o,[["render",n]]);export{f as __pageData,u as default};
