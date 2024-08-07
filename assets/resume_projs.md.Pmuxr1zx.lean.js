@@ -1,0 +1,1 @@
+import{_ as e,c as a,o as t,a4 as r}from"./chunks/framework.mdxl8zx-.js";const b=JSON.parse('{"title":"🎉项目经历","description":"","frontmatter":{},"headers":[],"relativePath":"resume/projs.md","filePath":"resume/projs.md"}'),o={name:"resume/projs.md"},l=r("",21),p=[l];function i(n,h,s,d,c,f){return t(),a("div",null,p)}const m=e(o,[["render",i]]);export{b as __pageData,m as default};
