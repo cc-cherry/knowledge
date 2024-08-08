@@ -1,1 +1,0 @@
-import{_ as t,c as a,o as e,a4 as d}from"./chunks/framework.mdxl8zx-.js";const u=JSON.parse('{"title":"常用工具","description":"","frontmatter":{},"headers":[],"relativePath":"diy/工具合集.md","filePath":"diy/工具合集.md"}'),r={name:"diy/工具合集.md"},o=d("",10),h=[o];function n(i,l,c,s,_,b){return e(),a("div",null,h)}const p=t(r,[["render",n]]);export{u as __pageData,p as default};
