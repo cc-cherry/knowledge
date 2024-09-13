@@ -1,0 +1,1 @@
+import{_ as t,c as e,o as a,a4 as r}from"./chunks/framework.NcOuGTBf.js";const m=JSON.parse('{"title":"常用工具合集","description":"","frontmatter":{},"headers":[],"relativePath":"diy/工具合集.md","filePath":"diy/工具合集.md"}'),d={name:"diy/工具合集.md"},l=r("",14),h=[l];function n(o,i,s,f,b,c){return a(),e("div",null,h)}const p=t(d,[["render",n]]);export{m as __pageData,p as default};
